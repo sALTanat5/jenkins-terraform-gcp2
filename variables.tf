@@ -24,8 +24,3 @@ variable key_pair {
   description = "description"
 }
 
-variable region {
-  type        = string
-  default     = ""
-  description = "description"
-}
