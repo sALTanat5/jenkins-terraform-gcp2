@@ -20,7 +20,7 @@ variable az1 {
 
 variable key_pair {
   type        = string
-  default     = "jenkins-terr-gcp-key"
+  default     = "my-laptop-key"
   description = "description"
 }
 
