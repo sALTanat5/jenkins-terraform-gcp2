@@ -1,31 +1,31 @@
 variable ami_id {
   type        = string
-  default     = "ami-092b51d9008adea15"
+  default     = ""
   description = "description"
 }
 
 variable instance_type {
   type        = string
-  default     = "t2.micro"
+  default     = ""
   description = "description"
 }
 
 
 variable az1 {
   type        = string
-  default     = "us-east-2a"
+  default     = ""
   description = "description"
 }
 
 
 variable key_pair {
   type        = string
-  default     = "my-laptop-key"
+  default     = ""
   description = "description"
 }
 
 variable region {
   type        = string
-  default     = "us-east-2"
+  default     = ""
   description = "description"
 }
