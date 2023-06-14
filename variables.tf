@@ -24,3 +24,8 @@ variable key_pair {
   description = "description"
 }
 
+variable region {
+  type        = string
+  default     = "us-east-2"
+  description = "description"
+}
